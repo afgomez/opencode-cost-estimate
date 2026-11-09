@@ -34,7 +34,7 @@ To map other providers, pass `catalogs` in the plugin options:
 {
   "plugins": [
     {
-      "package": "/absolute/path/to/opencode-openai-cost-estimate",
+      "package": "/absolute/path/to/opencode-cost-estimate",
       "options": { "catalogs": { "my-provider": "anthropic" } },
     },
   ],
@@ -52,8 +52,8 @@ To map other providers, pass `catalogs` in the plugin options:
 Clone this repository and install its dependencies:
 
 ```sh
-git clone https://github.com/afgomez/opencode-openai-cost-estimate.git
-cd opencode-openai-cost-estimate
+git clone https://github.com/afgomez/opencode-cost-estimate.git
+cd opencode-cost-estimate
 bun install --frozen-lockfile
 ```
 
@@ -63,7 +63,7 @@ Add the absolute checkout path to the `plugins` array in your global
 ```jsonc
 {
   "$schema": "https://opencode.ai/config.json",
-  "plugins": ["/absolute/path/to/opencode-openai-cost-estimate"],
+  "plugins": ["/absolute/path/to/opencode-cost-estimate"],
 }
 ```
 

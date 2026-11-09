@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "opencode-openai-cost-estimate",
+      "name": "opencode-cost-estimate",
       "dependencies": {
         "@opencode/plugin": "2.2.3",
       },

@@ -1,5 +1,5 @@
 {
-  "name": "opencode-openai-cost-estimate",
+  "name": "opencode-cost-estimate",
   "version": "0.1.0",
   "description": "API-equivalent cost estimates for subscription models (OpenAI ChatGPT/Codex, Claude Agent) in OpenCode V2",
   "type": "module",
@@ -21,11 +21,11 @@
   "packageManager": "bun@1.4.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afgomez/opencode-openai-cost-estimate.git"
+    "url": "git+https://github.com/afgomez/opencode-cost-estimate.git"
   },
-  "homepage": "https://github.com/afgomez/opencode-openai-cost-estimate#readme",
+  "homepage": "https://github.com/afgomez/opencode-cost-estimate#readme",
   "bugs": {
-    "url": "https://github.com/afgomez/opencode-openai-cost-estimate/issues"
+    "url": "https://github.com/afgomez/opencode-cost-estimate/issues"
   },
   "keywords": ["opencode", "opencode-plugin", "openai", "anthropic", "claude", "cost-estimate", "chatgpt"]
 }

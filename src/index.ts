@@ -10,7 +10,7 @@ const CATALOGS: Record<string, string> = {
 }
 
 export default {
-  id: "local.openai-cost-estimate",
+  id: "local.cost-estimate",
   async setup(ctx) {
     const catalogs: Record<string, string> = { ...CATALOGS, ...ctx.options.catalogs }
 
